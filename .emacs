@@ -7,6 +7,8 @@
 (add-to-list 'load-path "~/.installs/g-client/")
 (load-library "g")
 
+(load-file "/home/joshua/.emacs.d/mathematica.el")
+
 ;; ------------------------------------------------------------------------
 ;; 			   Buffer switching
 ;; ------------------------------------------------------------------------
@@ -182,7 +184,7 @@
 
 (defun Template-LaTex ()
   (interactive)
-  (insert-file-contents "~/LaTex/TEMPLATE.tex"))
+  (insert-file-contents "~/Templates/TEMPLATE.tex"))
 
 
 (defun Template-Matplotlib ()
